@@ -1,0 +1,93 @@
+/*=================================
+            Main
+===================================*/
+#main{
+    position:relative;
+    border: solid 3px;
+    width:auto;
+    height:auto;
+    padding: 150px 150px 100px 100px;
+    background-color:#585152;
+    top:50%;
+    left:50%;
+    margin-top: -300px;
+    margin-left: -200px;
+}
+
+/*=================================
+            Lable
+===================================*/
+label{
+    font-size: 14px;
+    font-family: cursive;
+}
+#label h1{
+    font-family: cursive;
+    color: #FFFF2E;
+    font-size: 40px;
+    position: relative;
+    bottom: 160px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    left:30px;
+}
+#label{
+    position:relative;
+}
+
+/*=================================
+            Info
+===================================*/
+#info{
+    position: relative;
+    width:auto;
+    height:auto;
+    bottom:50px;
+    padding: 20px;
+}
+/**
+#username{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    
+}
+
+#password{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+#email{
+    padding-bottom: 15px;
+}
+*
+#loginbutton{
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+.btn{
+    background-color: #FFFF2E;
+}
+
+/*=================================
+            Sign up
+===================================*/
+
+#signup{
+    
+    left:25px;
+}
+
+.bold{
+    font-weight: 1000;
+   
+}
+.size{
+    font-size: 24px;
+}
+.font{
+        font-family:serif;
+
+}
