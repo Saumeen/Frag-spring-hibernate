@@ -19,6 +19,7 @@ import javax.persistence.Table;
 public class UserMain {
     
     @Id @GeneratedValue
+    @Column(name="Uid")
     private int Uid;
     private String Username;
     private String Password;
@@ -39,7 +40,7 @@ public class UserMain {
         }
 
     
-    @Column(name="Uid")
+    
     public int getUid() {
         return Uid;
     }

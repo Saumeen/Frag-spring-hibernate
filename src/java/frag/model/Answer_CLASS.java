@@ -6,6 +6,8 @@ import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -68,5 +70,18 @@ public class Answer_CLASS {
     public void setUsermain(UserMain usermain) {
         this.usermain = usermain;
     }
+  /******
+    @ManyToOne(cascade =CascadeType.ALL)
+    @JoinColumn("QID")
+    private Questions_CLASS questions_class;
+
+    public Questions_CLASS getQuestions_class() {
+        return questions_class;
+    }
+
+    public void setQuestions_class(Questions_CLASS questions_class) {
+        this.questions_class = questions_class;
+    }
     
+    ****/
 }

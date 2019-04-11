@@ -5,6 +5,7 @@
  */
 package frag.dao;
 
+import frag.model.Answer_CLASS;
 import frag.model.Questions_CLASS;
 import frag.model.UserMain;
 import java.util.Date;
@@ -114,6 +115,15 @@ this.sessionFactory = sessionFactory;
         System.out.println("pppp---"+qs);
         return qs;
     }
+
+    @Override
+    public List<Answer_CLASS> getAnswer() {
+        Session session = getSessionFactory().openSession();
+        Query query = session.createQuery("From Answer_CLASS");
+        List<Answer_CLASS> ans = query.list();
+        return ans;
+    }
+  
 }
     
 

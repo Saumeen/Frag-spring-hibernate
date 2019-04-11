@@ -5,6 +5,7 @@
  */
 package frag.dao;
 
+import frag.model.Answer_CLASS;
 import frag.model.Questions_CLASS;
 import frag.model.UserMain;
 import java.util.List;
@@ -18,4 +19,5 @@ public interface UserDao {
      public void insertQuestion(Questions_CLASS question,int um);
      public List getuserid(int userid);
      public List<Questions_CLASS> getAllQuestion();
+     public List<Answer_CLASS> getAnswer();
 }
